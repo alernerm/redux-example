@@ -3,6 +3,7 @@ import './App.css';
 import logo from './logo.svg';
 import Posts from './components/Posts.jsx';
 import PostForm from './components/PostForm.jsx';
+import { Provider } from 'react-redux';
 
 class App extends Component {
   render() {
